@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(216, 175, 122);
+}
+p{
+    text-align: center;
+    color: rgb(124, 47, 19);
+
+}
+h1{
+    text-align: center;
+    color: rgb(124, 47, 19);
+    text-decoration: solid;
+}
+h2{
+    color: rgb(124, 47, 19);
+}

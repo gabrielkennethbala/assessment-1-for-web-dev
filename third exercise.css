@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #1e3e5e;
+    color: white;
+    padding: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.image-container {
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: 1s ease-out;
+}
+/* Apply CSS filters */
+img:hover {
+    filter: grayscale(30%) contrast(140%);
+    transform: scale(1.05);
+    box-shadow: gray;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+a:hover {
+    text-decoration: underline;
+}

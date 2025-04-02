@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+/* the css properties for the header */
+header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+/* this uses css properties to edit the navigation bar and its dependants */
+nav {
+    background-color: #172d67;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* the content for the main tag */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Welcome Section */
+.welcome {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Line Up Section */
+.lineup {
+    background-color: #ffffff;
+    padding: 20px;
+}
+/* these image css properties detail the photos of the speakers */
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.images img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+.image-container {
+    text-align: center;
+}
+
+.caption {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #8c15e9;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+}
